@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.mainContainer{
+    margin: 0 auto;
+    width: 75%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 1px solid #D3D3D3;
+}
+
+.twitterName{
+    display: flex;
+    align-items: center;
+}
+
+.arrow{
+    width: 15%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gg-arrow-left{
+    color: #1DA1F2;
+}
+
+.checkMark{
+    display: flex;
+    font-weight: 900;
+}
+
+.numberOfTweets{
+    font-size: 0.8rem;
+    color: gray;
+    margin-bottom: 0.2rem;
+}
+
+.photoContainer{
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+}
+
+.coverPhoto{
+    background-image: url('https://pbs.twimg.com/profile_banners/44196397/1576183471/600x200');
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.profile{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.profile p{
+    margin-bottom: 10px;
+}
+
+.profilePic{ 
+    background-image: url('https://images.indulgexpress.com/uploads/user/imagelibrary/2020/10/7/original/ElonMusk.jpg');
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: -30px;
+}
+
+.mainName{
+    display: flex;
+}
+
+.calender{
+    display: flex;
+    color: gray;
+}
+
+.calender p{
+    margin-left: 3px;
+}
+
+.numbers{
+    margin-right: 3px !important;
+    font-weight: 700;
+}
+
+.gray{
+    color: gray;
+}
+
+.followBtn button{
+    height: 30px;
+    width: 80px;
+    border-radius: 12px;
+    border: none;
+    float: right;
+    margin-top: 20px;
+    color: white;
+    background-color: #1DA1F2;
+}
+
+.followBtn span{
+    font-weight: bold;
+}
+
+.profileInfo{
+    margin-top: -20px;
+}
+
+.followers{
+    display: flex;
+}
+
+.followers p{
+    margin-right: 1em;
+}
+
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    font-weight: 600;
+}
+
+.tweetDiv{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #D3D3D3;
+    border-bottom: 1px solid #D3D3D3;
+    padding-top: 5px;
+}
+
+.pp{
+    width: 46px;
+    height: 46px;
+    background-image: url('https://images.indulgexpress.com/uploads/user/imagelibrary/2020/10/7/original/ElonMusk.jpg');
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 50%;
+
+}
+
+.noPP{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nameAndTime{
+    display: flex;
+}
+
+p.displayName{
+    font-weight: 700;
+}
+
+p.marginP{
+    margin-inline: 10px;
+    color: gray;
+}
+
+.tweetIcons{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:gray;
+}
+
+.gg-check-o{
+    color: #1DA1F2;
+    margin-left: 3px;
+}
+
+@media only screen and (max-width: 565px){
+    .mainContainer{
+        width: 100%;
+        border: none;
+        margin: 0;
+        min-width: 410px;
+    }
+
+    .profilePic{
+       width: 115px;
+       height: 115px;
+    }
+}
