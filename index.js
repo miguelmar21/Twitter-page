@@ -38,7 +38,9 @@ headerContainer.classList.add('headerContainer');
 headerContainer.innerHTML = `
     <div class = 'twitterName'>
         <div class = 'arrow'>
-            <i class="gg-arrow-left"></i>
+            <div class = 'background-arrow'>
+                <i class="gg-arrow-left"></i>
+            </div>
         </div>
         <div class = 'nameCheckmark'>
             <p class = 'checkMark'>${user1['displayName']}<i class="gg-check-o"></i></p>
@@ -81,10 +83,18 @@ profileContainer.innerHTML = `
             <p class = 'gray'>Followers</p>
         </div>
         <div class = 'tabs'>
-            <p>Tweets</p>
-            <p>Tweets & replies</p>
-            <p>Media</p>
-            <p>Likes</p>
+            <div class = "background-tab-main">
+                <p>Tweets</p>
+            </div>
+            <div class = "background-tab">
+                <p>Tweets & replies</p>
+            </div>
+            <div class = "background-tab">
+                <p>Media</p>
+            </div>
+            <div class = "background-tab">
+                <p>Likes</p>
+            </div>
     </div>
 `
 mainContainer.appendChild(profileContainer);
@@ -112,10 +122,18 @@ for (var i = 0, l = user1.tweets.length; i < l; i++){
                 <p>${tweetValues[0]}</p>
             </div>
             <div class = 'tweetIcons'>
-                <i class="gg-comment"></i>
-                <i class="gg-repeat"></i>
-                <i class="gg-heart"></i>
-                <i class="gg-software-upload"></i>
+                <div class = "icon-background">
+                    <i class="gg-comment"></i>
+                </div>    
+                <div class = "icon-background-2">
+                    <i class="gg-repeat"></i>
+                </div>
+                <div class = "icon-background-3">
+                    <i class="gg-heart"></i>
+                </div>
+                <div class = "icon-background">
+                    <i class="gg-software-upload"></i>
+                </div>
             </div>
         </div>
     `
