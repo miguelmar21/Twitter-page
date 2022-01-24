@@ -1,4 +1,4 @@
-# Mock Twitter Page
+# Dynamic Twitter Clone
 
 ![twitter-page](https://user-images.githubusercontent.com/76494184/150390321-f7d80ee2-3d77-4f19-97c8-c71ca9c0cbb8.gif)
 
